@@ -16,6 +16,11 @@
 
 <div id="container">
 	<div id="body">
+	<h1> Demo code for The Better Software </h1>
+	<h2> By: Amandeep Singh </h2>
+	<br />
+	<br />
+	<br />
 		<form onsubmit = "return false">
 		  Enter Text:<br>
 		  <input id="text_value"  type="text" name="enter_text" value=""><br><br>

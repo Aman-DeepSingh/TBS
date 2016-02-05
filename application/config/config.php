@@ -16,6 +16,7 @@
 */
 $config['base_url']	= '';
 date_default_timezone_set('America/New_York');
+//date_default_timezone_set('Asia/Kolkata');
 /*
 |--------------------------------------------------------------------------
 | Index File

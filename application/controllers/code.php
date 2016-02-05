@@ -25,8 +25,8 @@ class Code extends CI_Controller {
 		
 		// To write log into file.
 		if($_POST){
-			$date  		= date('d-m-Y');
-			$filename 	= "logs/$date.txt";
+			$date  		= date('d_m_Y');
+			$filename 	= "logs/Log_$date.log";
 			$time		= date('g:i a');
 			
 			$file 	= fopen($filename, "a+");
@@ -39,6 +39,8 @@ class Code extends CI_Controller {
 				fclose($file);
 				echo 'Log Created';
 			}		
+		}else{
+			echo 'Error: Empty String';			
 		}
 	}
 }
